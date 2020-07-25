@@ -8,6 +8,7 @@ pipeline {
         }   
         }
 
+
         stage('Upload to AWS') {
             steps {
                 withAWS(region: 'ap-south-1'){
